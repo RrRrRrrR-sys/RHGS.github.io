@@ -84,3 +84,7 @@ body{
   color: var(--neutral-50);
   
 }
+
+#l1 span{
+  color: var(--red-700);
+}
