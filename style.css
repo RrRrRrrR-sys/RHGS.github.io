@@ -42,21 +42,22 @@ body{
   display: flex;
   position: relative;
   height: auto;
+  width:100%;
 }
 
 #nav{
   height: 17vw;
-  width: 100%;
+  flex-grow: 1;
   background-color: var(--wine-700);
   position:relative;
   z-index: 1;
-  
+  margin-right: 0;
   display: flex;
   flex-wrap: wrap;
   gap: 0,5vw 2vw;
   justify-content: flex-end;
   align-items: center;
-  padding-left: 50vw;
+  padding-left: 30vw;
 }
 #nav a{
   width: 45%;
@@ -64,10 +65,10 @@ body{
   font-size: 4vw;
   font-family: mangat;
   text-align: center;
-  margin-right: 2vw;
   
   transition: color 1s;
 }
 #nav a:hover{
   color: var(--red-200);
 }
+
