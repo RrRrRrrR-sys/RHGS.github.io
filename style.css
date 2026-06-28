@@ -55,13 +55,14 @@ body{
   margin-right: 0;
   display: flex;
   flex-wrap: wrap;
-  gap: 0,5vw 2vw;
+  gap: 0,5vw 1vw;
   justify-content: flex-end;
   align-items: center;
   padding-left: 30vw;
 }
 #nav a{
-  width: 40%;
+  background-color: var(--wine-700);
+  width: 55%;
   color: var(--neutral-50);
   font-size: 4vw;
   font-family: mangat;
