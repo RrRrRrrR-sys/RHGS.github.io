@@ -87,4 +87,5 @@ body{
 
 #l1 span{
   color: var(--red-500);
+  text-decoration-line: solid;
 }
