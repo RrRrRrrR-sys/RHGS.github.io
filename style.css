@@ -89,12 +89,16 @@ body{
 
 #l1{
   font-size: 4vw;
+  flex: 2;
 }
 #l1 span{
   color: var(--red-500);
   font-size: 5vw;
 }
+#l2{
+  flex: 2;
+}
 
 .ini_Button{
-  width: 50%;
+  flex: 1;
 }
