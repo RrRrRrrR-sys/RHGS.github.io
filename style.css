@@ -76,6 +76,7 @@ body{
 
 #inicio{
   display: flex;
+  flex-flow: column;
   background-color: var(--neutral-800);
   margin: 5vw;
   margin-top: 7vw;
@@ -95,6 +96,11 @@ body{
   font-size: 5vw;
 }
 
+#inicio div{
+  display: flex;
+  margin-top: 5vw;
+}
 .ini_Button{
   width: 50%;
+  height: 10%;
 }
