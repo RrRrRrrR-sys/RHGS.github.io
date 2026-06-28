@@ -86,6 +86,7 @@ body{
 }
 #l1{
   font-size: 4vw;
+  line-height: 2.0;
 }
 #l1 span{
   color: var(--red-500);
