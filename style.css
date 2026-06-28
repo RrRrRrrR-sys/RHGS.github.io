@@ -62,7 +62,7 @@ body{
 }
 #nav a{
   background-color: var(--wine-700);
-  width: 55%;
+  width: 50%;
   color: var(--neutral-50);
   font-size: 4vw;
   font-family: mangat;
@@ -92,4 +92,8 @@ body{
 #l1 span{
   color: var(--red-500);
   font-size: 5vw;
+}
+
+.ini_Button{
+  width: 50%;
 }
