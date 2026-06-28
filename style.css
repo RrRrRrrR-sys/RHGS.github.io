@@ -105,7 +105,8 @@ body{
   height: 7vw;
   font-family: mangat;
   font-size: 4vw;
-  border-radius: 5vw;
+  border-radius: 1vw;
+  margin: 1vw;
   
   border: none;
   outline: none;
