@@ -72,3 +72,6 @@ body{
   color: var(--red-200);
 }
 
+#inicio{
+  background-color: var(--red-900);
+}
