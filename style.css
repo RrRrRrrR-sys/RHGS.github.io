@@ -112,6 +112,8 @@ body{
   outline: none;
   appearance: none;
   cursor: pointer;
+  
+  transition: transform 1s;
 }
 #portifoliobt{
   background-color: var(--wine-500);
@@ -120,4 +122,8 @@ body{
 #contatobt{
   background-color: var(--neutral-50);
   color: var(--wine-500);
+}
+
+.ini_Button:hover{
+  transform: scale(0.9);
 }
