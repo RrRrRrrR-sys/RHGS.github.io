@@ -21,7 +21,7 @@
   --neutral-50: #FFFFFF;
   --neutral-100: #F4F4F4;
   --neutral-200: #E7E7E7;
-  --neutral-800: #0e1725;
+  --neutral-800: #192132;
   --neutral-900: #111827;
 }
 
@@ -75,4 +75,5 @@ body{
 
 #inicio{
   background-color: var(--neutral-800);
+  margin: 5vw;
 }
