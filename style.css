@@ -1,0 +1,73 @@
+@font-face {
+    font-family: "mangat";
+    src: url("fonts/mangat.ttf");
+}
+
+:root {
+  --red-50:  #FCE8E8;
+  --red-100: #F6CACA;
+  --red-200: #EEA0A0;
+  --red-300: #E17373;
+  --red-400: #CF4A4A;
+  --red-500: #B42F31;
+  --red-600: #A1181D;
+  --red-700: #810406;
+  --red-800: #5F0405;
+  --red-900: #3A0203;
+
+  --wine-500: #693132;
+  --wine-700: #51050C;
+
+  --neutral-50: #FFFFFF;
+  --neutral-100: #F4F4F4;
+  --neutral-200: #E7E7E7;
+  --neutral-900: #111827;
+}
+
+
+*{
+  text-decoration: none;
+  margin: 0;
+}
+body{
+   background-color: var(--neutral-900);
+ }
+#rhgs1{
+  width: 25vw;
+  position: absolute;
+  z-index: 2;
+}
+
+#header{
+  display: flex;
+  position: relative;
+  height: auto;
+}
+
+#nav{
+  height: 17vw;
+  width: 100%;
+  background-color: var(--wine-700);
+  position:relative;
+  z-index: 1;
+  
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0,5vw 2vw;
+  justify-content: flex-end;
+  align-items: center;
+  padding-left: 50vw;
+}
+#nav a{
+  width: 45%;
+  color: var(--neutral-50);
+  font-size: 4vw;
+  font-family: mangat;
+  text-align: center;
+  margin-right: 2vw;
+  
+  transition: color 1s;
+}
+#nav a:hover{
+  color: var(--red-200);
+}
