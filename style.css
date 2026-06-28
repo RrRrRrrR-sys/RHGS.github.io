@@ -76,6 +76,7 @@ body{
 #inicio{
   background-color: var(--neutral-800);
   margin: 5vw;
+  margin-top: 7vw;
   padding: 4vw;
   border-radius: 5vw;
   font-family: mangat;
