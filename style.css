@@ -84,8 +84,9 @@ body{
   color: var(--neutral-50);
   
 }
-
+#l1{
+  font-size: 4vw;
+}
 #l1 span{
   color: var(--red-500);
-  text-decoration-line: solid;
 }
