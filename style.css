@@ -126,7 +126,24 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  
+  text-align: center;
   color: var(--neutral-50);
-  
+}
+#sobre h1{
+  font-size: 7vw;
+}
+
+.scard{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  border-radius: 5vw;
+  padding: 4vw;;
+  background-color: var(--neutral-800);
+  align-items: center;
+  font-size:4vw;
+}
+.scard h2{
+  font-size: 5vw;
 }
