@@ -122,3 +122,11 @@ body{
   transform: scale(0.9);
 }
 
+#sobre{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  color: var(--neutral-50);
+  
+}
